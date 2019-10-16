@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:shiftscarlet/adminUser:password
+  username: admin
+dashboardAuthID: vault:shiftscarlet:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:shiftscarlet:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:shiftscarlet/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:shiftscarlet/prow:hmacToken
